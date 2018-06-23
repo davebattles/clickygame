@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-image: url("./assets/images/splash.png");
+  background-size: cover;
+  font-family: 'Raleway';
+
+}
+
+.App-logo {
+  animation: App-logo-shake infinite 5s alternate;
+  height: 80px;
+  filter: invert(100%);
+  
+}
+
+.App-header {
+ 
+  height: 170px;
+  padding: 30px;
+  color: white;
+  border-bottom: 10px double #fff;
+}
+
+.App-title-h1 {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  --borderWrap: 1px;
+  font-family: 'Quicksand';
+  font-size: 2.5em;
+  top: 10px;
+  border: var(--borderWrap) solid #fff;
+  width: 25vw;
+  min-width: 220px;
+  
+}
+
+.App-title-h2 {
+  font-size: 1.1em;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-shake {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(100deg); }
+}
