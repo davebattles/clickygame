@@ -2,42 +2,37 @@ import React, { Component } from 'react';
 import Cards from './components/Cards';
 import Header from './components/Header';
 import images from './images.json';
-import friends from './friends.json'
+import Wrapper from './components/Wrapper';
 
 
 class App extends Component {
+
+  state = {
+    imageJson: images,
+    clickedPicsArr: [],
+    score: 0,
+    highScore: 0,
+    message: "Click a Pic to Start"
+  }
+
+
+
+
   render() {
 
     return (
       <div className="App">
       <Header/>
+      <Wrapper>
 
-      <Cards 
-      image={images[0].images}/>
-      <Cards 
-      image={images[1].images}/>
-       <Cards 
-      image={images[2].images}/>
-       <Cards 
-      image={images[3].images}/>
-       <Cards 
-      image={images[4].images}/>
-       <Cards 
-      image={images[5].images}/>
-       <Cards 
-      image={images[6].images}/>
-    <Cards 
-      image={images[7].images}/>
-       <Cards 
-      image={images[8].images}/>
-       <Cards 
-      image={images[9].images}/>
-       <Cards 
-      image={images[10].images}/>
-       <Cards 
-      image={images[11].images}/>
-  
-
+        {this.state.imageJson.map(images=> (
+          <Cards
+            key={images.id}
+            id={images.id}
+            image={images.images}
+            />
+        ))}
+      </Wrapper>
       </div>
       );
       
