@@ -1,5 +1,5 @@
 import React from 'react';
-import Wrapper from './Wrapper';
+
 
 const RulesStyle = {
   fontSize: 25,

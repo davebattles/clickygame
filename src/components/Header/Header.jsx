@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/images/coffee-beans.svg';
-import Wrapper from "../Wrapper";
 import './Header.css';
 
 
