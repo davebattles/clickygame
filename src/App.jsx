@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
-import logo from './assets/images/coffee-beans.svg';
-import Wrapper from "./components/Wrapper";
-import './App.css';
+import Cards from './components/Cards';
+import Header from './components/Header';
+import images from './images.json';
 
 class App extends Component {
   render() {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title-h1">Coffee Click</h1>
-  
-        </header>
+      <Header/>
+      
+      <Cards image={images[1].imageSource}/>
+      <Cards image={images[2].imageSource}/>
+      <Cards image={images[3].imageSource}/>
+      <Cards image={images[4].imageSource}/>
+      <Cards image={images[5].imageSource}/>
+      <Cards image={images[6].imageSource}/>
+      <Cards image={images[7].imageSource}/>
+      <Cards image={images[8].imageSource}/>
+      <Cards image={images[9].imageSource}/>
+      <Cards image={images[10].imageSource}/>
+      <Cards image={images[11].imageSource}/>
+      
 
       </div>
-    );
+      );
+      
   }
 }
 

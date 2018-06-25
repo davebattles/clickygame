@@ -1,19 +1,15 @@
-.App {
+.Header {
   text-align: center;
-  background-image: url("./assets/images/splash.png");
+  background-image: url("../../assets/images/header.jpg");
   background-size: cover;
   font-family: 'Raleway';
-
 }
-
-.App-logo {
+.Header-logo {
   animation: App-logo-shake infinite 5s alternate;
   height: 80px;
   filter: invert(100%);
-  
 }
-
-.App-header {
+.Header-header {
  
   height: 180px;
   padding: 30px;
@@ -21,7 +17,8 @@
   border-bottom: 10px double #fff;
 }
 
-.App-title-h1 {
+
+.Header-title-h1 {
   position: relative;
   z-index: 2;
   margin: 0 auto;
@@ -35,19 +32,12 @@
   
 }
 
-.App-title-h2 {
-  font-size: 1.1em;
-}
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
+@keyframes Header-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-@keyframes App-logo-shake {
+@keyframes Header-logo-shake {
   from { transform: rotate(0deg); }
   to { transform: rotate(100deg); }
 }

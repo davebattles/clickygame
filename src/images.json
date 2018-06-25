@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "imageSource": "https://my.mixtape.moe/tqpcwk.png",
+    "HasBeenClicked": false
+},
+{
+  "id": "2",
+  "imageSource": "./assets/images/2.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "3",
+  "imageSource": "./assets/images/3.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "4",
+  "imageSource": "./assets/images/4.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "5",
+  "imageSource": "./assets/images/5.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "6",
+  "imageSource": "./assets/images/6.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "7",
+  "imageSource": "./assets/images/7.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "8",
+  "imageSource": "./assets/images/8.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "9",
+  "imageSource": "./assets/images/9.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "10",
+  "imageSource": "./assets/images/10.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "11",
+  "imageSource": "./assets/images/11.jpg",
+  "HasBeenClicked": false
+},
+{
+  "id": "12",
+  "imageSource": "./assets/images/12.jpg",
+  "HasBeenClicked": false
+}
+]
