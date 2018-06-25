@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../assets/images/coffee-beans.svg';
 import Wrapper from "../Wrapper";
 import './Header.css';
-import Rules from '../Rules';
+
 
 class Header extends React.Component {
   render() {
@@ -12,9 +12,7 @@ class Header extends React.Component {
       <img src={logo} className="Header-logo" alt="Spinning coffee?" />
       <h1 className="Header-title-h1">Coffee Click</h1>
       </header>
-      <Wrapper>
-      <Rules/>
-      </Wrapper>
+
       </div>
     )
   }
